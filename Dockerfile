@@ -1,9 +1,6 @@
 # ---- base ----
 FROM python:3.11-slim
-
-ENV PYTHONDONTWRITEBYTECODE=1 \
-    PYTHONUNBUFFERED=1
-
+ENV PYTHONDONTWRITEBYTECODE=1  PYTHONUNBUFFERED=1
 WORKDIR /srv
 
 # (optional) build tools if you use packages needing gcc
